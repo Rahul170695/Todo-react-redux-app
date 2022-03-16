@@ -1,0 +1,57 @@
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 10;
+    background: rgba(0,0,0,0.75);
+}
+.card {
+    margin: 2rem auto;
+    padding: 1rem;
+    width: 70%;   
+    position: fixed;
+    top: 30vh;
+    left: 15%;
+    overflow: hidden;
+    z-index: 100;
+}
+.card button{
+    margin-top: 0.5rem;
+    padding: 2px;
+    background-color: rgb(54, 54, 173);
+    border-radius: 0.5rem;
+    width: 13%;
+    color: rgb(235, 240, 210);
+}
+
+.card input:focus{
+   border: 1px solid blue;
+   outline: none;
+   background-color: ivory;
+}
+
+.card footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card h2{
+    display: flex;
+    justify-content: space-around;
+    color: rgb(54, 54, 173);
+    font-weight: bolder; 
+    margin-bottom: 1rem;
+}
+
+@media(max-width:600px){
+    .card button{
+        margin-top: 0.5rem;
+        padding: 1px;
+        background-color: rgb(54, 54, 173);
+        border-radius: 0.5rem;
+        width: 25%;
+        color: rgb(235, 240, 210);
+    }
+}

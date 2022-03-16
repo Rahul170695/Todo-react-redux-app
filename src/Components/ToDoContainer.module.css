@@ -1,0 +1,64 @@
+.card {
+    margin: 2rem auto;
+    padding: 1rem;
+    width: 70%;   
+    position: absolute;
+    top:13rem;
+    left:2rem;
+    right: 2rem;
+    }
+
+.card input{
+    display: inline-block;
+    width: 84%;
+    border: 1px solid lightblue;    
+}
+
+.card button{
+     margin: 0.5rem;
+     padding: 2px;
+     background-color: rgb(54, 54, 173);
+     border-radius: 0.5rem;
+     width: 12%;
+     color: rgb(235, 240, 210);
+}
+
+.card input:focus{
+    border: 1px solid blue;
+    outline: none;
+    background-color: ivory;
+}
+
+@media (max-width: 600px){
+    .card {
+        margin: 1rem auto;
+        padding: 0.5rem;
+        width: 70%;   
+        position: absolute;
+        top: 10rem;
+        left:2rem;
+        right: 2rem;
+    }
+    
+    .card input{
+        display: inline-block;
+        width: 70%;
+        border: 1px solid lightblue;    
+    }
+    
+    .card button{
+         margin: 0.2rem;
+         padding: 1px;
+         background-color: rgb(54, 54, 173);
+         border-radius: 0.5rem;
+         width: 25%;
+         color: rgb(235, 240, 210);
+    }
+    
+    .card input:focus{
+        border: 1px solid blue;
+        outline: none;
+        background-color: ivory;
+    }
+
+}
