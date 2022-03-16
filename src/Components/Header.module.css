@@ -64,4 +64,8 @@ h1 {
         left: 33%;
         right: 30%;
     }
+    .image{
+        background-image: url('../Assets/background.jpg');
+        background-size: cover;
+    }
   }

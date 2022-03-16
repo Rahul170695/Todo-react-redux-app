@@ -24,8 +24,9 @@ const Header = () => {
       {/* <img src={full} srcSet={`${full} 500px, ${half} 900px`} alt="TODO"  /> */}
       <picture>
         <source media="(max-width: 900px)" srcSet={full} />
-        <source media="(max-width: 480px)" srcSet={half} />
-        <img src={half} alt="todo" />
+        {/* <source media="(max-width: 480px)" srcSet={half} /> */}
+              <img src={half} alt="TODO" />
+        {/* <img src={half} alt="todo" /> */}
       </picture>
       <h1 className={classes.title} >TODO</h1>
       {todo > 0 && <p className={classes.todoNumber}>You have {todo} task to complete!</p>}

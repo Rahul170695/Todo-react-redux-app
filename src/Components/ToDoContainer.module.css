@@ -33,9 +33,9 @@
     .card {
         margin: 1rem auto;
         padding: 0.5rem;
-        width: 70%;   
+        width: 80%;   
         position: absolute;
-        top: 10rem;
+        top: 7rem;
         left:2rem;
         right: 2rem;
     }

@@ -48,15 +48,15 @@ cursor: pointer;
     justify-content: flex-end;
 }
 
-@media(max-width: 700px){
+@media(max-width: 600px){
     .card {
-        width:75%;
+        width:77%;
         margin: 1rem auto;
         padding: 1rem;
         position: absolute;
-        left: 3rem;
+        left: 2.7rem;
         right: 3rem;
-        top: 13rem;
+        top: 11rem;
     }
     .lists{
         border: 1px solid black ; 
@@ -75,12 +75,13 @@ cursor: pointer;
     }
     
     .delete{
-    margin: 1px;
+    margin: 0px;
     padding: 0; 
     cursor: pointer;
     }
     
     .editIcon{ 
+        margin: 0px;
         cursor: pointer;
     }
     
