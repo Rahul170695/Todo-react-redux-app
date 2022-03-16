@@ -71,12 +71,11 @@ cursor: pointer;
         border: 1px solid lightblue;
         padding: 3px;
         width: 80%;
-        display: inline-block;
-        
+        display: inline-block;   
     }
     
     .delete{
-    margin: 2px;
+    margin: 1px;
     padding: 0; 
     cursor: pointer;
     }

@@ -10,6 +10,7 @@ import { ToDoSliceActions } from './Store/ToDo-slice';
 import classes from './App.module.css';
 
 const App = () => {
+
   const clear = useSelector(state => state.toDo.onClear);
   const dispatch = useDispatch();
 
@@ -25,8 +26,7 @@ const App = () => {
       <Header />
       <ToDoContainer />
       <ToDoList />
-      {clear && <ErrorModal onClearAll={onClearAllHandler} onBackdropClick={onBackdropClick} />}
-    </div >
+      {clear && <ErrorModal onClearAll={onClearAllHandler} onBackdropClick={onBackdropClick} />}</div>
   );
 }
 
