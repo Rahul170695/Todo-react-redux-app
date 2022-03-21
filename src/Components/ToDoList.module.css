@@ -56,7 +56,7 @@ cursor: pointer;
         position: absolute;
         left: 2.7rem;
         right: 3rem;
-        top: 11rem;
+        top: 18rem; /*16*/
     }
     .lists{
         border: 1px solid black ; 
@@ -71,7 +71,8 @@ cursor: pointer;
         border: 1px solid lightblue;
         padding: 3px;
         width: 80%;
-        display: inline-block;   
+        display: inline-block; 
+        overflow-wrap: break-word;  
     }
     
     .delete{

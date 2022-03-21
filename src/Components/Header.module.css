@@ -1,39 +1,13 @@
-/* .heading {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin: 5px;
-    padding: 10px;
-    background-image: "toDo.jpg";
-}
-
-h1 {
-    color: black ;
-    font-weight: 900;
-    background-color: rgb(54, 54, 173);
-    color: lavender;
-    padding: 0.5rem;
-    border-radius: 0.5rem;
-} */
-
 .parentTitle{
     position: relative;
 }
 
-
-/* .image {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 10px;
-} */
-
 .title {
     position: absolute;
     font-size: 50px;
-    color: whitesmoke;
+    color: white;
     letter-spacing: 15px;
-    top: 6rem;
+    top: 0; /*6rem*/
     left: 40%;
     right: 40%;
 }
@@ -41,7 +15,7 @@ h1 {
     position: absolute;
     font-size: 15px;
     color: whitesmoke;
-    top: 11rem;
+    top: 20rem; /*11rem*/
     left: 39%;
     right: 40%;
 }
@@ -50,7 +24,7 @@ h1 {
     .title {
         position: absolute;
         font-size: 40px;
-        color: whitesmoke;
+        color: white;
         letter-spacing: 7px;
         top: 0.5rem;
         left: 35%;
@@ -59,8 +33,8 @@ h1 {
     .todoNumber {
         position: absolute;
         font-size: 10px;
-        color: whitesmoke;
-        top: 4.2rem;
+        color: rgb(54, 54, 173);
+        top: 17.5rem; /*4.2rem*/
         left: 33%;
         right: 30%;
     }

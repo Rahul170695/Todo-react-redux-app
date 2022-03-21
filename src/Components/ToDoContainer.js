@@ -38,7 +38,8 @@ const ToDoContainer = (props) => {
                 <input type="text" placeholder="Start Adding"
                     onChange={InputAddHandler}
                     value={todoAdd}
-                    maxLength="60" />
+                    maxLength="60" 
+                     />
                 <button type="submit" disabled={!isValid} >{editTodo ? "Update" : "Add"}</button>
             </form>
         </Card>

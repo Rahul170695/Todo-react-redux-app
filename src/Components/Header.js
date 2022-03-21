@@ -31,7 +31,7 @@ const Header = () => {
       <h1 className={classes.title} >TODO</h1>
       {todo > 0 && <p className={classes.todoNumber}>You have {todo} task to complete!</p>}
     </div>
-  );
+  ); 
 }
 
 export default Header;
